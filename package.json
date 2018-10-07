@@ -1,0 +1,19 @@
+{
+  "name": "react-native-simpl-fingerprint-sdk",
+  "version": "1.0.0",
+  "description": "A React Native wrapper for Simpl FingerPrint SDK",
+  "main": "index.js",
+  "keywords": [
+    "simpl",
+    "simpl-fingerprint-sdk",
+    "react-native"
+  ],
+  "author": "Simpl",
+  "contributors": [
+    {
+      "name": "Devarajan",
+      "email": "devarajan@getsimpl.com"
+    }
+  ],
+  "license": ""
+}
