@@ -20,13 +20,17 @@ public class SimplFingerprintSdkModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void generateFingerprint(final String clientId, final String phoneNumber, final String emailId, final Callback callback) {
-        SimplFingerprint.init(getReactApplicationContext(), phoneNumber, emailId);
-        SimplFingerprint.getInstance().generateFingerprint(new SimplFingerprintListener() {
-            @Override
-            public void fingerprintData(String fingerprint) {
-                callback.invoke(fingerprint);
-            }
-        });
+        try {
+            SimplFingerprint.init(getReactApplicationContext(), phoneNumber, emailId);
+            SimplFingerprint.getInstance().generateFingerprint(new SimplFingerprintListener() {
+                    @Override
+                     public void fingerprintData(String fingerprint) {
+                         callback.invoke(fingerprint);
+                     }
+                });
+        }catch (Exception ex){
+            callback.invoke(ex.getMessage);
+        }
     }
 
 }
