@@ -13,12 +13,17 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(generateFingerprint:(NSString *)clientId phoneNumber:(NSString *) phoneNumber email: (NSString *) email callback:(RCTResponseSenderBlock)callback) {
-    GSUser *user = [[GSUser alloc] initWithPhoneNumber: phoneNumber email: email];
-    GSFingerPrint *fingerprint = [[GSFingerPrint alloc] initWithMerchantId:clientId andUser:user];
-    [fingerprint generateEncryptedPayloadWithCallback:^(NSString *payload) {
-        callback(@[payload]);
-    }];
+RCT_EXPORT_METHOD(generateFingerprint:(NSString *)clientId phoneNumber:(NSString *)phoneNumber email: (NSString *)email callback:(RCTResponseSenderBlock)callback) {
+    @try {
+        GSUser *user = [[GSUser alloc] initWithPhoneNumber: phoneNumber email: email];
+        GSFingerPrint *fingerprint = [[GSFingerPrint alloc] initWithMerchantId:clientId andUser:user];
+        [fingerprint generateEncryptedPayloadWithCallback:^(NSString *payload) {
+            callback(@[payload]);
+        }];
+    }
+    @catch  (NSException * ex){
+        callback("Exception " + ex.reason);
+    }
 }
 
 - (dispatch_queue_t)methodQueue
