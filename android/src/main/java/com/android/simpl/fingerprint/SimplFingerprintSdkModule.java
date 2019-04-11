@@ -29,7 +29,7 @@ public class SimplFingerprintSdkModule extends ReactContextBaseJavaModule {
                      }
                 });
         }catch (Exception ex){
-            callback.invoke(ex.getMessage);
+            callback.invoke(ex.getMessage());
         }
     }
 
