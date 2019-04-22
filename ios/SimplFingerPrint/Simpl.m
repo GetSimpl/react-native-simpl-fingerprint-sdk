@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(generateFingerprint:(NSString *)clientId phoneNumber:(NSString
         }];
     }
     @catch  (NSException * ex){
-        callback(ex.reason);
+        callback(@[[ex reason]]);
     }
 }
 
