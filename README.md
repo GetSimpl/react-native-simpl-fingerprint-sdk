@@ -15,7 +15,8 @@ or using yarn:
 yarn add react-native-simpl-fingerprint-sdk
 ```
 
-## Linking
+## Linking 
+React-native from v0.60 supports auto linking so none of the folwing steps are required.
 
 Run the following command to link the SDK to Android and iOS
 
@@ -43,7 +44,7 @@ Add the following to `android/app/build.gradle`:
 
 If you are using Cocoapods, Add FingerPrint SDK to your Podfile
 
-`pod 'SimplFingerPrint'`
+`pod 'react-native-simpl-fingerprint-sdk', :podspec => '../node_modules/react-native-simpl-fingerprint-sdk/react-native-simpl-fingerprint-sdk.podspec`
 
 Then run,
 
