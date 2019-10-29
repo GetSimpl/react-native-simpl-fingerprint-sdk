@@ -1,5 +1,4 @@
 
 import { NativeModules } from 'react-native';
 
-module.exports = NativeModules.Simpl;
-
+export default NativeModules.Simpl;
