@@ -1,5 +1,9 @@
 ## React Native Library for Simpl FingerPrint Sdk
+
+[![Version][version-badge]][package]
+
 This project serves as a Simpl FingerPrint Sdk wrapper for React Native.
+Currently supported React Native version: >= 0.50.3
 
 ## Installation
 
@@ -15,7 +19,14 @@ or using yarn:
 yarn add react-native-simpl-fingerprint-sdk
 ```
 
-## Linking 
+## Examples
+
+<img src="assets/arc-example.gif?raw=true" width="300">
+
+Example app lives in [example](/example) directory
+
+## Linking
+
 React-native from v0.60 supports auto linking so none of the folwing steps are required.
 
 Run the following command to link the SDK to Android and iOS
@@ -25,21 +36,25 @@ react-native link react-native-simpl-fingerprint-sdk
 ```
 
 ## Add native SDK
+
 ### Android
+
 Add the following to `android/app/build.gradle`:
-  ```gradle
-  ...
 
-  repositories {
-      maven { url "http://maven.getsimpl.com"}
-  }
+```gradle
+...
 
-  dependencies {
-      ...
-      compile project(':react-native-simpl-fingerprint-sdk')
-      compile "com.simpl.android:fingerprintSDK:+"
-  }
-  ```
+repositories {
+    maven { url "http://maven.getsimpl.com"}
+}
+
+dependencies {
+    ...
+    compile project(':react-native-simpl-fingerprint-sdk')
+    compile "com.simpl.android:fingerprintSDK:+"
+}
+```
+
 ### iOS
 
 If you are using Cocoapods, Add FingerPrint SDK to your Podfile
@@ -54,12 +69,17 @@ If you are not using Cocoapods, Link the Framework from [here](https://github.co
 
 ## Usage
 
-`import/require` it by the name defined in your library's `package.json` and use it as follows:
+For generating fingerprint data:
 
 ```javascript
-import Simpl from 'react-native-simpl-fingerprint-sdk';
+import Simpl from "react-native-simpl-fingerprint-sdk";
 //Get Payload
- Simpl.generateFingerprint('<client_id>','<phone_number>','<email>', (payload) => {
-      console.log("Fingerprint", payload);
- });
+Simpl.generateFingerprint(
+  "<client_id>",
+  "<phone_number>",
+  "<email>",
+  (payload) => {
+    console.log("Fingerprint", payload);
+  }
+);
 ```

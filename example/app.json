@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "react-native-example",
+    "slug": "react-native-example",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simpl.fingerprint.example"
+    },
+    "android": {
+      "package": "com.simpl.fingerprint.example"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
