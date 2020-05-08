@@ -1,4 +1,4 @@
-# Binks Mobile App
+# Example App
 
 ## :hammer: Build it yourself
 
