@@ -128,7 +128,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle Expo Assets */,
-				EE5BCB1B27C25687D5E03996 /* [CP] Embed Pods Frameworks */,
+				40289EF85973F04D01F8144D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +197,7 @@
 			shellPath = /bin/sh;
 			shellScript = "../node_modules/expo-updates/bundle-expo-assets.sh\n";
 		};
-		EE5BCB1B27C25687D5E03996 /* [CP] Embed Pods Frameworks */ = {
+		40289EF85973F04D01F8144D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

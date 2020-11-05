@@ -1,7 +1,7 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
-  - EXConstants (9.0.0):
+  - EXConstants (9.2.0):
     - UMConstantsInterface
     - UMCore
   - EXErrorRecovery (1.1.0):
@@ -260,7 +260,7 @@ PODS:
     - React
   - RNScreens (2.2.0):
     - React
-  - SimplFingerPrint (1.0.5)
+  - SimplFingerPrint (1.0.6)
   - UMAppLoader (1.0.2)
   - UMBarCodeScannerInterface (5.1.0)
   - UMCameraInterface (5.1.0)
@@ -282,18 +282,18 @@ PODS:
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - EXConstants (from `../node_modules/expo-constants/ios`)
+  - EXConstants (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-linking/node_modules/expo-constants/ios`)
   - EXErrorRecovery (from `../node_modules/expo-error-recovery/ios`)
-  - EXFileSystem (from `../node_modules/expo-file-system/ios`)
-  - EXFont (from `../node_modules/expo-font/ios`)
-  - EXImageLoader (from `../node_modules/expo-image-loader/ios`)
-  - EXKeepAwake (from `../node_modules/expo-keep-awake/ios`)
-  - EXLinearGradient (from `../node_modules/expo-linear-gradient/ios`)
-  - EXLocation (from `../node_modules/expo-location/ios`)
-  - EXPermissions (from `../node_modules/expo-permissions/ios`)
-  - EXSQLite (from `../node_modules/expo-sqlite/ios`)
-  - EXUpdates (from `../node_modules/expo-updates/ios`)
-  - EXWebBrowser (from `../node_modules/expo-web-browser/ios`)
+  - EXFileSystem (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-file-system/ios`)
+  - EXFont (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-font/ios`)
+  - EXImageLoader (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-image-loader/ios`)
+  - EXKeepAwake (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-keep-awake/ios`)
+  - EXLinearGradient (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-linear-gradient/ios`)
+  - EXLocation (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-location/ios`)
+  - EXPermissions (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-permissions/ios`)
+  - EXSQLite (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-sqlite/ios`)
+  - EXUpdates (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-updates/ios`)
+  - EXWebBrowser (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-web-browser/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
@@ -324,19 +324,19 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - UMAppLoader (from `../node_modules/unimodules-app-loader/ios`)
+  - UMAppLoader (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-app-loader/ios`)
   - UMBarCodeScannerInterface (from `../node_modules/unimodules-barcode-scanner-interface/ios`)
-  - UMCameraInterface (from `../node_modules/unimodules-camera-interface/ios`)
-  - UMConstantsInterface (from `../node_modules/unimodules-constants-interface/ios`)
+  - UMCameraInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-camera-interface/ios`)
+  - UMConstantsInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-constants-interface/ios`)
   - "UMCore (from `../node_modules/@unimodules/core/ios`)"
-  - UMFaceDetectorInterface (from `../node_modules/unimodules-face-detector-interface/ios`)
-  - UMFileSystemInterface (from `../node_modules/unimodules-file-system-interface/ios`)
-  - UMFontInterface (from `../node_modules/unimodules-font-interface/ios`)
-  - UMImageLoaderInterface (from `../node_modules/unimodules-image-loader-interface/ios`)
+  - UMFaceDetectorInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-face-detector-interface/ios`)
+  - UMFileSystemInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-file-system-interface/ios`)
+  - UMFontInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-font-interface/ios`)
+  - UMImageLoaderInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-image-loader-interface/ios`)
   - UMPermissionsInterface (from `../node_modules/unimodules-permissions-interface/ios`)
   - "UMReactNativeAdapter (from `../node_modules/@unimodules/react-native-adapter/ios`)"
-  - UMSensorsInterface (from `../node_modules/unimodules-sensors-interface/ios`)
-  - UMTaskManagerInterface (from `../node_modules/unimodules-task-manager-interface/ios`)
+  - UMSensorsInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-sensors-interface/ios`)
+  - UMTaskManagerInterface (from `../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-task-manager-interface/ios`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -348,29 +348,29 @@ EXTERNAL SOURCES:
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   EXConstants:
-    :path: "../node_modules/expo-constants/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-linking/node_modules/expo-constants/ios"
   EXErrorRecovery:
     :path: "../node_modules/expo-error-recovery/ios"
   EXFileSystem:
-    :path: "../node_modules/expo-file-system/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-file-system/ios"
   EXFont:
-    :path: "../node_modules/expo-font/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-font/ios"
   EXImageLoader:
-    :path: "../node_modules/expo-image-loader/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-image-loader/ios"
   EXKeepAwake:
-    :path: "../node_modules/expo-keep-awake/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-keep-awake/ios"
   EXLinearGradient:
-    :path: "../node_modules/expo-linear-gradient/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-linear-gradient/ios"
   EXLocation:
-    :path: "../node_modules/expo-location/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-location/ios"
   EXPermissions:
-    :path: "../node_modules/expo-permissions/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-permissions/ios"
   EXSQLite:
-    :path: "../node_modules/expo-sqlite/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-sqlite/ios"
   EXUpdates:
-    :path: "../node_modules/expo-updates/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-updates/ios"
   EXWebBrowser:
-    :path: "../node_modules/expo-web-browser/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/expo-web-browser/ios"
   FBLazyVector:
     :path: "../node_modules/react-native/Libraries/FBLazyVector"
   FBReactNativeSpec:
@@ -426,38 +426,38 @@ EXTERNAL SOURCES:
   RNScreens:
     :path: "../node_modules/react-native-screens"
   UMAppLoader:
-    :path: "../node_modules/unimodules-app-loader/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-app-loader/ios"
   UMBarCodeScannerInterface:
     :path: "../node_modules/unimodules-barcode-scanner-interface/ios"
   UMCameraInterface:
-    :path: "../node_modules/unimodules-camera-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-camera-interface/ios"
   UMConstantsInterface:
-    :path: "../node_modules/unimodules-constants-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-constants-interface/ios"
   UMCore:
     :path: "../node_modules/@unimodules/core/ios"
   UMFaceDetectorInterface:
-    :path: "../node_modules/unimodules-face-detector-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-face-detector-interface/ios"
   UMFileSystemInterface:
-    :path: "../node_modules/unimodules-file-system-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-file-system-interface/ios"
   UMFontInterface:
-    :path: "../node_modules/unimodules-font-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-font-interface/ios"
   UMImageLoaderInterface:
-    :path: "../node_modules/unimodules-image-loader-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-image-loader-interface/ios"
   UMPermissionsInterface:
     :path: "../node_modules/unimodules-permissions-interface/ios"
   UMReactNativeAdapter:
     :path: "../node_modules/@unimodules/react-native-adapter/ios"
   UMSensorsInterface:
-    :path: "../node_modules/unimodules-sensors-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-sensors-interface/ios"
   UMTaskManagerInterface:
-    :path: "../node_modules/unimodules-task-manager-interface/ios"
+    :path: "../node_modules/react-native-simpl-fingerprint-sdk/example/node_modules/unimodules-task-manager-interface/ios"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  EXConstants: 5304709b1bea70a4828f48ba4c7fc3ec3b2d9b17
+  EXConstants: f486f6b4a36b86e47ab258d4d2b7b2699786fdce
   EXErrorRecovery: 8f4c21ab2f51bf75defe4536f841a37de59b0661
   EXFileSystem: cf4232ba7c62dc49b78c2d36005f97b6fddf0b01
   EXFont: b60f7a8900e3a12e7be3b2a40e19b22c7b5f89ba
@@ -482,7 +482,7 @@ SPEC CHECKSUMS:
   React-jsi: cb2cd74d7ccf4cffb071a46833613edc79cdf8f7
   React-jsiexecutor: d5525f9ed5f782fdbacb64b9b01a43a9323d2386
   React-jsinspector: fa0ecc501688c3c4c34f28834a76302233e29dc0
-  react-native-simpl-fingerprint-sdk: bb1628e2c15740fb2d195f341a549e38e4c44d08
+  react-native-simpl-fingerprint-sdk: 248448b033b68028e6411c3d9b43f07ef1518465
   React-RCTActionSheet: 600b4d10e3aea0913b5a92256d2719c0cdd26d76
   React-RCTAnimation: 791a87558389c80908ed06cc5dfc5e7920dfa360
   React-RCTBlob: d89293cc0236d9cb0933d85e430b0bbe81ad1d72
@@ -496,7 +496,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: 8f09cd560f8d533eb36da5a6c5a843af9f056b38
   RNReanimated: 4e102df74a9674fa943e05f97f3362b6e44d0b48
   RNScreens: 812b79d384e2bea7eebc4ec981469160d4948fd5
-  SimplFingerPrint: 39055625bc3183a9b6842d454b6107f9831f0f98
+  SimplFingerPrint: 0ccbfb8dfa4f931863c6c8bf31f74d1aad4ad2ab
   UMAppLoader: ee77a072f9e15128f777ccd6d2d00f52ab4387e6
   UMBarCodeScannerInterface: 9dc692b87e5f20fe277fa57aa47f45d418c3cc6c
   UMCameraInterface: 625878bbf2ba188a8548675e1d1d2e438a653e6d
@@ -514,4 +514,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 856d8a432c195107d3e47cd6c5e30e9595ac9349
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3

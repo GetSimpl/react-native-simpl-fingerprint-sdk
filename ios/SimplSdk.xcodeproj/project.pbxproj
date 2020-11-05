@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D709102E216AC07E0055EEBD /* SimplFingerPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D709102D216AC07E0055EEBD /* SimplFingerPrint.framework */; };
-		D72095EC216AAEAE00B1E2F2 /* Simpl.m in Sources */ = {isa = PBXBuildFile; fileRef = D72095EB216AAEAE00B1E2F2 /* Simpl.m */; };
 		D72095ED216AAEAE00B1E2F2 /* Simpl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D72095EA216AAEAE00B1E2F2 /* Simpl.h */; };
+		FCF93C142554372500CD5E62 /* libSimplFingerPrint.a in Sources */ = {isa = PBXBuildFile; fileRef = D72095E8216AAEAD00B1E2F2 /* libSimplFingerPrint.a */; platformFilter = ios; };
+		FCF93C162554373F00CD5E62 /* SimplFingerPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF93C152554373F00CD5E62 /* SimplFingerPrint.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D709102D216AC07E0055EEBD /* SimplFingerPrint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SimplFingerPrint.framework; sourceTree = "<group>"; };
 		D72095E8216AAEAD00B1E2F2 /* libSimplFingerPrint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimplFingerPrint.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72095EA216AAEAE00B1E2F2 /* Simpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simpl.h; sourceTree = "<group>"; };
 		D72095EB216AAEAE00B1E2F2 /* Simpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simpl.m; sourceTree = "<group>"; };
+		FCF93C152554373F00CD5E62 /* SimplFingerPrint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SimplFingerPrint.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D709102E216AC07E0055EEBD /* SimplFingerPrint.framework in Frameworks */,
+				FCF93C162554373F00CD5E62 /* SimplFingerPrint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 		D78BDEF5203D3B0B00C08789 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D709102D216AC07E0055EEBD /* SimplFingerPrint.framework */,
+				FCF93C152554373F00CD5E62 /* SimplFingerPrint.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72095EC216AAEAE00B1E2F2 /* Simpl.m in Sources */,
+				FCF93C142554372500CD5E62 /* libSimplFingerPrint.a in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
